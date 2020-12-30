@@ -16,13 +16,13 @@ deplpy:
   # region should be the elasticbeanstalk region that you created in aws
   region: "us-west-2"
   # from aws UI
-  app: "docker"
+  app: "docker-react"
   # from aws UI
-  env: "Docker-env"
+  env: "DockerReact-env"
   # from aws UI, autocreated in S3, bucket is used to save your src files
-  bucket_name: "elasticbeansstalk-us-west-2-334395123"
+  bucket_name: "elasticbeanstalk-us-east-2-432727920151"
   # should be the same with app name
-  bucket_path: "docker"
+  bucket_path: "docker-react"
   on:
     #git branch
     branch: master
