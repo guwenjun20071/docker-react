@@ -10,7 +10,7 @@ before_install:
 script:
   - docker run guwenjun2007/docker-react npm run test -- --coverage
 
-deplpy:
+deploy:
   # provider should be supported by travis
   provider: elasticbeanstalk
   # region should be the elasticbeanstalk region that you created in aws
